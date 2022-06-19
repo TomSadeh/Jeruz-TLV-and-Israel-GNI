@@ -28,7 +28,7 @@ def invert(string):
     """
     return string[::-1]
 
-# Importing a file with the names of the household files, and a file with CPI data.
+# Importing a file with the names of the household files, and a file with CPI data. Enter the files location here.
 
 file_names = pd.read_csv('new_file_names.csv', index_col = 'year')  
 cpi = pd.read_csv('cpi_for_git.csv', index_col = 'year')
